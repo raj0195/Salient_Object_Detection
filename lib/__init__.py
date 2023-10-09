@@ -1,0 +1,4 @@
+from lib.InSPyReNet import InSPyReNet_Res2Net50, InSPyReNet_SwinB
+from lib.InSPyReNet_rl import InSPyReNet_Res2Net50_change
+from lib.InSPyReNet_red import InSPyReNet_Res2Net50_red
+from lib.InSPyReNet_red_fur import InSPyReNet_Res2Net50_change_fur
