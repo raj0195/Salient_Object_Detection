@@ -24,7 +24,7 @@ torch.backends.cudnn.allow_tf32 = False
 
 def _args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', '-c',     type=str,            default='configs/InSPyReNet_SwinB.yaml')
+    parser.add_argument('--config', '-c',     type=str,            default='configs/InSPyReNet_Res2Net50_change.yaml')
     parser.add_argument('--source', '-s',     type=str)
     parser.add_argument('--dest', '-d',       type=str,            default=None)
     parser.add_argument('--type', '-t',       type=str,            default='map')
